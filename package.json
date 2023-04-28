@@ -1,0 +1,36 @@
+{
+  "name": "janejay-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start:dev": "ts-node-dev -r tsconfig-paths/register --respawn server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "janejay",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "joi": "^17.9.1",
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.14.1",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "pg": "^8.10.0",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.31.0",
+    "sequelize-typescript": "^2.1.5"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/koa": "^2.13.6",
+    "@types/koa-router": "^7.4.4",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  }
+}
